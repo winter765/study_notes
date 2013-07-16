@@ -1,0 +1,3 @@
+white-space:nowrap;  //强迫不换行
+
+table: table-layout:fixed; //table的td中字数过长不会顶宽

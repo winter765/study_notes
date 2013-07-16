@@ -1,0 +1,15 @@
+##　建立一个本地仓库，可以克隆以及远程提交操作
+
+1. 建立空仓库(pro为项目名称)
+mkdir pro.git
+cd pro.git
+git init --bare
+
+2. 克隆项目
+移动到工作空间中执行：
+git clone [path]/pro.git
+将文件拷入pro目录或者增加所需要的文件
+git add .
+git commit -m 'init git'
+git push origin master
+

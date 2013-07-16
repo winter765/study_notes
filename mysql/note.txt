@@ -1,0 +1,17 @@
+查看版本号：
+selet version();
+
+查看编码类型：
+show variables like 'character%';
+
+修改root密码：
+在mysql命令行中：
+use mysql;
+update user set password=password('new password') where user='root';
+flush privileges;
+
+完全卸载mysql：
+在你从电脑里卸载旧的MYSQL数据库服务时，首先先在WINDOWS服务里停掉MYSQL的服务。再到控制面板里的增加删除程序内进行删除，但是你并不能完整的把MYSQL服务删除，那么就要在注册表里(regedit)清除你的MYSQL服务。有几个地方:
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Eventlog\Application\MySQL 目录删除;
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\Eventlog\Application\MySQL 目录删除;
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application\MySQL 目录删除;
