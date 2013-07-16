@@ -1,0 +1,14 @@
+本地创建ssk：
+ssh -keygen -t rsa -C "winter765@sina.com"
+默认生成的文件为~/.ssh/id_rsa.pub
+如果已经有了，也在这个文件中。更换机器就直接找这个文件。
+在github中新增ssh key（如果当前机器没有的在github登录过的话）
+测试命令：
+ssh -T git@github.com
+成功则显示: You've successfully authenticated, but GitHub does not provide shell access.
+
+上传本地仓库到远程仓库：
+git remote add origin git@github.com:winter765/repo_name.git
+## 注意：在github上要有要上传的仓库。新建的仓库会提示在本地初始化
+## 但是给点ssh为 https://github.com/winter765/repo_name.git
+## 这个ssh在push时会要求输入username
