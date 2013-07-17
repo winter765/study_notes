@@ -15,3 +15,14 @@ flush privileges;
 HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Eventlog\Application\MySQL Ä¿Â¼É¾³ý;
 HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\Eventlog\Application\MySQL Ä¿Â¼É¾³ý;
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application\MySQL Ä¿Â¼É¾³ý;
+
+ÐÞ¸Ämysql×Ö·û¼¯£º
+set character_set_client=utf8;
+set character_set_connection=utf8;
+set character_set_database=utf8;
+set character_set_results=utf8;
+set character_set_server=utf8;
+set character_set_system=utf8;
+set collation_connection=utf8;
+set collation_database=utf8;
+set collation_server=utf8;
