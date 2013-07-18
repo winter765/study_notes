@@ -9,8 +9,11 @@
 * [github](https://github.com/winter765/study_notes/blob/master/l_git/github.txt) --github学习笔记
 * [start](https://github.com/winter765/study_notes/blob/master/l_git/start.txt) --git常用命令
 
-## mysql学习笔记 - [mysql](https://github.com/winter765/study_notes/blob/master/mysql)
+## mysql学习笔记 - [mysql](https://github.com/winter765/study_notes/tree/master/mysql)
 * [note](https://github.com/winter765/study_notes/blob/master/mysql/note.txt) --常用mysql命令
+
+## ruby学习笔记 [ruby](https://github.com/winter765/study_notes/tree/master/ruby)
+* [environment](https://github.com/winter765/study_notes/blog/master/environment.md) --ubuntu下搭建ROR环境
 
 ## 其它 - [others](https://github.com/winter765/study_notes/tree/master/others)
 * [name_file_roles](https://github.com/winter765/study_notes/blob/master/others/name_file_rols.txt) --命名法则
