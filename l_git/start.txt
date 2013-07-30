@@ -20,4 +20,6 @@
    
 -- git log
     查看提交历史
-    
+
+-- git config --global core.editor vim
+    设置commit时使用的默认编辑器
